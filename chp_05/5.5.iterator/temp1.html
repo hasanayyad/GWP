@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="htf-8">
+        <title>Go Web Programming</title>
+    </head>
+    <body>
+        <ul>
+            {{ range . }}
+                <li>Dot is set to: {{ . }}</li>
+            {{ else }}
+                <li>Fall-back (empty iterator)</li>
+            {{ end }}
+        </ul>
+    </body>
+</html>

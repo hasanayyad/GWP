@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Go Web Programming</title>
+  </head>
+  <body>
+    <div>Start. The dot is: {{ . }}</div>
+    <div>
+    {{ with "Hasan" }}
+      Set. The dot is: {{ . }}
+    {{ else }}
+      Empty arg. The dot is: {{ . }}
+    {{ end }}
+    </div>
+    <div>End. The dot is: {{ . }}</div>
+  </body>
+</html>
